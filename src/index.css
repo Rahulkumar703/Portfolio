@@ -1,0 +1,29 @@
+:root
+{
+  --primary-blue : rgb(178, 221, 250);
+  --secondary-blue : rgb(144, 143, 255);
+  --primary-green : rgb(178, 250, 196);
+  --secondary-green : rgb(85, 250, 126);
+  --black : rgb(39, 39, 39);
+  --white : rgb(235, 235, 235);
+}
+*
+{
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+html
+{
+  font-family: 'Roboto', sans-serif;
+  font-size: 62.5%;
+}
+body {
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+  color: var(--black);
+}
+a
+{
+  text-decoration: none;
+}

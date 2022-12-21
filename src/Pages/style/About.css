@@ -1,0 +1,30 @@
+.About-page.page
+{
+    flex-direction: row;
+    justify-content: space-around;
+}
+.About-page.page .about
+{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-evenly;
+}
+.About-page.page .about .social-links
+{
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+.About-page .img-box
+{
+    display: flex;
+    width: auto;
+    height: auto;
+}
+.About-page .img-box img
+{
+    height: 40rem;
+    border-radius: 5rem;
+}

@@ -1,0 +1,112 @@
+/* for-big-desktop */
+@media (max-width: 1800px) 
+{ 
+    html
+    {
+        font-size: 70%;
+    }
+}
+
+/* for-desktop */
+@media (max-width: 1200px) 
+{ 
+    html
+    {
+        font-size: 62.5%;
+    }
+}
+
+/* for-tablet-landscape */
+@media (max-width: 900px) 
+{ 
+    html
+    {
+        font-size: 60%;
+    }
+
+    /* Navigation Tabs */
+    header nav .nav-tabs .nav-list .nav-links .nav-links-text
+    {
+        display: none;
+    }
+    header nav .nav-tabs .nav-list .nav-links.active .nav-links-text
+    {
+        display: block;
+    }
+    header nav .nav-tabs .nav-list .nav-links.active .nav-links-icon
+    {
+        display: block;
+        margin-right: .5rem;
+    }
+    header nav .nav-tabs .nav-list .nav-links .nav-links-icon
+    {
+        margin-right: 0;
+    }
+}
+
+/* for-mobile */
+@media (max-width: 600px) 
+{ 
+    /* Navigation Bar */
+    header nav
+    {
+        height: 5rem;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        padding: .5rem 5%;
+        background: linear-gradient(to top right, var(--primary-blue), var(--secondary-blue));
+    }    
+
+    /* Navigation Tabs */
+    header nav .nav-tabs
+    {
+        width: 100%;
+        /* height: 10rem; */
+        position: fixed;
+        bottom: 0;
+        left: 50%;
+        transform: translateX(-50%);
+        background: linear-gradient(to top right, var(--primary-blue), var(--secondary-blue));
+        padding: 1rem;
+        border-radius: 1rem;
+        border-bottom-left-radius: 0;
+        border-bottom-right-radius: 0;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+    }
+    header nav .nav-tabs .nav-list
+    {
+        justify-content: space-around;
+    }
+    header nav .nav-tabs .nav-list .nav-items
+    {
+        margin: 0 1rem!important;
+    }
+    header nav .nav-tabs .nav-list .nav-links 
+    {
+        flex-direction: row;
+        align-items: center;
+        justify-content: center;
+        padding: .5rem;
+    }
+    header nav .nav-tabs .nav-list .nav-links.active .nav-links-text
+    {
+        margin-top: .5rem;
+        padding: .5rem;
+        display: block;
+    }
+    header nav .nav-tabs .nav-list .nav-links .nav-links-icon
+    {
+        padding: .5rem;
+        margin-right: 0!important;
+    }
+
+    /* Info bar */
+    header .info-bar
+    {
+        height: 2rem;
+        font-size: 1.5rem;
+    }
+}

@@ -1,0 +1,141 @@
+/* Header */
+header
+{
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    overflow: hidden;
+    position: relative;
+    z-index: 10;
+}
+
+/* Navigation Bar */
+header nav
+{
+    height: 8rem;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: .5rem 5%;
+    background: linear-gradient(to top right, var(--primary-blue), var(--secondary-blue));
+}
+
+/* Navbar Title */
+header nav .title .title-link
+{
+    color: var(--black);
+}
+header nav .title .title-link .icon
+{
+    display: flex;
+}
+header nav .title .title-link h1
+{
+    font-size: 2.5rem;
+    padding: .5rem 1rem;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    color: var(--black);
+    transition: .3s;
+    text-shadow: 0px 2px 5px rgba(255, 255, 255, 0.4);
+}
+/* Navbar Title Hover Effects */
+header nav .title .title-link:hover h1
+{
+    color: var(--primary-green);
+    filter: saturate(2);
+    text-shadow: 0 1px 1px var(--black),0 1px 5px var(--primary-green);
+}
+
+
+/* Navigation tabs */
+header nav .nav-tabs
+{
+    flex: 1;
+}
+header nav .nav-tabs .nav-list
+{
+    flex: 1;
+    display: flex;
+    align-items: center;
+    justify-content: flex-end;
+    list-style: none;
+}
+header nav .nav-tabs .nav-list .nav-items
+{
+    margin: 0 2rem;
+}
+header nav .nav-tabs .nav-list .nav-items:first-child
+{
+    margin-left: 0;
+}
+header nav .nav-tabs .nav-list .nav-items:last-child
+{
+    margin-right: 0;
+}
+header nav .nav-tabs .nav-list .nav-links
+{
+    display: flex;
+    align-items: baseline;
+    justify-content: center;
+    cursor: pointer;
+    padding: 1rem 1.5rem;
+    border-radius: .5rem;
+    transition: .3s ease-in-out;
+    color: var(--black);
+}
+header nav .nav-tabs .nav-list .nav-links .nav-links-icon
+{
+    margin-right: .5rem;
+}
+header nav .nav-tabs .nav-list .nav-links .nav-links-icon i
+{
+    font-size: 2rem;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-weight: normal;
+    transform: translatey(.25rem);
+}
+header nav .nav-tabs .nav-list .nav-links .nav-links-text h5
+{
+    font-size: 1.5rem;
+    font-weight: normal;
+}
+
+/* Navigation Tabs Hover Effects */
+header nav .nav-tabs .nav-list .nav-links:hover
+{
+    color: var(--white);
+    text-shadow: 0 1px 5px var(--white);
+}
+header nav .nav-tabs .nav-list .nav-links.active:hover
+{
+    color: var(--primary-green);
+    text-shadow: 0 1px 5px var(--primary-green);
+}
+header nav .nav-tabs .nav-list .nav-links:hover,
+header nav .nav-tabs .nav-list .nav-links.active
+{
+    box-shadow: 0px 1px 5px rgba(0,0,0,0.2),
+                0px 5px 15px rgba(0,0,0,0.1);
+                font-weight: bold;
+}
+header nav .nav-tabs .nav-list .nav-links.active
+{
+    color: var(--primary-green);
+    filter: saturate(2);
+}
+/* Info bar */
+header .info-bar
+{
+    height: 3rem;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background: linear-gradient(to top right, var(--primary-green), var(--secondary-green));
+    color: var(--black);
+    font-size: 2rem;
+    margin-top: .1rem;
+    padding: .5rem;
+}
