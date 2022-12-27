@@ -1,9 +1,9 @@
 import React from 'react'
 import { useLocation } from 'react-router-dom'
 import './style/Common_Style.css'
-import './style/Error_404.css'
+import './style/Error404.css'
 
-function Error_404() {
+function Error404() {
 
   return (
     <div className="error-page page">
@@ -22,4 +22,4 @@ function Error_404() {
   )
 }
 
-export default Error_404
+export default Error404

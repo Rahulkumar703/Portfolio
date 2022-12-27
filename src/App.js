@@ -5,7 +5,7 @@ import Contact from './Pages/Contact';
 import Home from './Pages/Home';
 import Projects from './Pages/Projects';
 import About from './Pages/About';
-import Error_404 from './Pages/Error_404';
+import Error404 from './Pages/Error404';
 
 
 function App() {
@@ -18,7 +18,7 @@ function App() {
           <Route path="/about" element={<About />} />
           <Route path="/projects" element={<Projects />} />
           <Route path="/contact" element={<Contact />} />
-          <Route path="*" element={<Error_404 />} />
+          <Route path="*" element={<Error404 />} />
         </Routes>
       </BrowserRouter>
     </div>

@@ -11,7 +11,7 @@ function Contact() {
 
     return (
         <div className="Contact-page page">
-            <img src='/Images/Illustrations/contact-us.png' alt="Contact" />
+            <img src='%PUBLIC_URL%/Images/Illustrations/contact-us.png' alt="Contact" />
             <form action="#" onSubmit={submitForm}>
                 <Input type="text" title="Enter Your Name" id="name" icon="fi fi-rr-portrait" autoComplete="off" />
                 <Input type="text" title="Enter Your Emial" id="email" icon="fi fi-rr-at" autoComplete="off" />
