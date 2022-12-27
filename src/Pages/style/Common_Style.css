@@ -1,5 +1,4 @@
-.page
-{
+.page {
     width: 100%;
     height: calc(100vh - 11.1rem);
     display: flex;
@@ -12,11 +11,8 @@
 
 
 /* for-mobile */
-@media (max-width: 600px) 
-{ 
-    .page
-    {
-        height: calc(100vh - 7.1rem);
+@media (max-width: 600px) {
+    .page {
         padding-bottom: 8rem;
     }
 }

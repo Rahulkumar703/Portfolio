@@ -1,25 +1,17 @@
 import React from 'react'
 import Input from '../Components/Input'
 import './style/Contact.css'
-import contactImage from '../Assets/Contact-us.png'
 
 function Contact() {
 
     function submitForm(e) {
         e.preventDefault();
-        const inputs = e.target;
-        for (let i = 0; i < 3; ++i) {
-            if (inputs[i].value === '') {
-                inputs[i].value = "Please Fill"
-
-                return false;
-            }
-        }
+        // const inputs = e.target;
     }
 
     return (
         <div className="Contact-page page">
-            <img src={contactImage} alt="Contact" />
+            <img src='/Images/Illustrations/contact-us.png' alt="Contact" />
             <form action="#" onSubmit={submitForm}>
                 <Input type="text" title="Enter Your Name" id="name" icon="fi fi-rr-portrait" autoComplete="off" />
                 <Input type="text" title="Enter Your Emial" id="email" icon="fi fi-rr-at" autoComplete="off" />
@@ -39,4 +31,4 @@ function Contact() {
     )
 }
 
-export default Contact
+export default Contact;

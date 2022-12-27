@@ -1,0 +1,17 @@
+/* Info bar */
+.info-bar {
+    height: 3rem;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background: linear-gradient(to top right, var(--primary-green), var(--secondary-green));
+    color: var(--black);
+    font-size: 2rem;
+    margin-top: .1rem;
+    padding: .5rem;
+    transition: .3s ease;
+}
+
+.info-bar.hidden {
+    display: none;
+}

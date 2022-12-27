@@ -1,5 +1,6 @@
 import React, { useState, useEffect } from 'react'
 import { Link, useLocation } from 'react-router-dom'
+import InfoBar from './InfoBar';
 import './Style/Header.css'
 import './Style/Responsive_Header.css'
 
@@ -33,7 +34,7 @@ function Header() {
                 title="Home"
                 onClick={() => { setActiveTab("home") }}>
                 <span className="nav-links-icon">
-                  <i className="fi fi-rr-home"/>
+                  <i className="fi fi-rr-home" />
                 </span>
                 <span className="nav-links-text">
                   <h5>Home</h5>
@@ -46,7 +47,7 @@ function Header() {
                 title="About"
                 onClick={() => { setActiveTab("about") }}>
                 <span className="nav-links-icon">
-                  <i className="fi fi-rr-info"/>
+                  <i className="fi fi-rr-info" />
                 </span>
                 <span className="nav-links-text">
                   <h5>About</h5>
@@ -59,7 +60,7 @@ function Header() {
                 title="Projects"
                 onClick={() => { setActiveTab("projects") }}>
                 <span className="nav-links-icon">
-                  <i className="fi fi-rr-briefcase"/>
+                  <i className="fi fi-rr-briefcase" />
                 </span>
                 <span className="nav-links-text">
                   <h5>Projects</h5>
@@ -72,7 +73,7 @@ function Header() {
                 title="Contact"
                 onClick={() => { setActiveTab("contact") }}>
                 <span className="nav-links-icon">
-                  <i className="fi fi-rr-comment-alt"/>
+                  <i className="fi fi-rr-comment-alt" />
                 </span>
                 <span className="nav-links-text">
                   <h5>Contact</h5>
@@ -85,11 +86,7 @@ function Header() {
       </nav>
 
       {/* Info Bar */}
-      <div className="info-bar">
-        <p className="info-text">
-          Here will be go some important notification.
-        </p>
-      </div>
+      <InfoBar text="Info Bar" visibile={false} />
 
     </header>
   )

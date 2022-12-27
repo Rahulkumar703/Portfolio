@@ -1,0 +1,57 @@
+[
+    {
+        "sn": "01",
+        "thumbnail": "/IMAGES/THUMBNAILS/know-your-world.png",
+        "name": "Know Your World",
+        "desc": "Know Your World is a single page web-app, it calls a country api to fetch all country details and display them.",
+        "techs": [
+            "ReactJs",
+            "HTML",
+            "CSS",
+            "JS"
+        ],
+        "links": {
+            "github": "https://github.com/Rahulkumar703/know-your-world",
+            "webpage": "http://know-your-world.vercel.app/"
+        },
+        "isCompleted": true
+    },
+    {
+        "sn": "02",
+        "thumbnail": "/IMAGES/THUMBNAILS/know-your-world.png",
+        "name": "MCEian",
+        "desc": "MCEian is a social application for Motiharii College of engineering where all students can intract with each other either Seniors, Professor or batchmates.",
+        "techs": [
+            "React Js",
+            "MongoDB",
+            "Express Js",
+            "HTML",
+            "CSS",
+            "JS"
+        ],
+        "links": {
+            "github": "https://github.com/Rahulkumar703/Portfolio",
+            "webpage": "http://rahulkumar703.vercel.app/"
+        },
+        "isCompleted": false
+    },
+    {
+        "sn": "03",
+        "thumbnail": "/IMAGES/THUMBNAILS/know-your-world.png",
+        "name": "Portfolio",
+        "desc": "it is my personal portfolio website.",
+        "techs": [
+            "React Js",
+            "MongoDB",
+            "Express Js",
+            "HTML",
+            "CSS",
+            "JS"
+        ],
+        "links": {
+            "github": "https://github.com/Rahulkumar703/MCEian",
+            "webpage": "http://mceian.vercel.app/"
+        },
+        "isCompleted": false
+    }
+]

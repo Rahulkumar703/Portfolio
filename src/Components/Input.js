@@ -20,7 +20,6 @@ function Input(props) {
                 onChange={changeValue}
                 autoComplete={autoComplete === "off" ? "disable" : "enable"} />
 
-            <i className="fi fi-rr-comment-alt"></i>
 
             <label htmlFor={id}>{id}</label>
         </div>
