@@ -1,0 +1,39 @@
+.details-card {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    margin: 2rem 1rem;
+    margin-bottom: 3rem;
+    border-bottom: 1px solid var(--secondary-blue);
+    padding: .5rem;
+    padding-bottom: 1rem;
+}
+
+.details-card .heading {
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.details-card .heading .title {
+    color: var(--secondary-blue);
+    font-size: 1.8rem;
+}
+
+.details-card .heading .dates {
+    color: var(--black);
+}
+
+.details-card .department {
+    font-size: 1.1rem;
+    margin-bottom: 1rem;
+}
+
+.details-card .college {
+    font-size: 1.4rem;
+}
+
+.details-card .marks {
+    font-size: 1.3rem;
+}

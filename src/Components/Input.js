@@ -1,7 +1,7 @@
 import React, { useState } from 'react'
 
 function Input(props) {
-    const { type, title, id, icon, autoComplete } = props;
+    const { type, title, id, icon, autoComplete, required, placeholder } = props;
     const [inputValue, setInputValue] = useState({
         value: ''
     });
@@ -18,6 +18,8 @@ function Input(props) {
                 id={id}
                 value={inputValue.value}
                 onChange={changeValue}
+                required={required}
+                placeholder={placeholder}
                 autoComplete={autoComplete === "off" ? "disable" : "enable"} />
 
 

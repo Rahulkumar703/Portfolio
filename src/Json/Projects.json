@@ -1,7 +1,7 @@
 [
     {
         "sn": "01",
-        "thumbnail": "/Images/THUMBNAILS/know-your-world.png",
+        "thumbnail": "/Images/THUMBNAILS/Know-Your-World.png",
         "name": "Know Your World",
         "desc": "Know Your World is a single page web-app, it calls a country api to fetch all country details and display them.",
         "techs": [
@@ -18,7 +18,7 @@
     },
     {
         "sn": "02",
-        "thumbnail": "/Images/THUMBNAILS/know-your-world.png",
+        "thumbnail": "/Images/THUMBNAILS/MCEian.png",
         "name": "MCEian",
         "desc": "MCEian is a social application for Motiharii College of engineering where all students can intract with each other either Seniors, Professor or batchmates.",
         "techs": [
@@ -37,7 +37,7 @@
     },
     {
         "sn": "03",
-        "thumbnail": "/Images/THUMBNAILS/know-your-world.png",
+        "thumbnail": "/Images/THUMBNAILS/Portfolio.png",
         "name": "Portfolio",
         "desc": "it is my personal portfolio website.",
         "techs": [

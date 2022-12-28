@@ -1,19 +1,18 @@
-.Contact-page.page
-{
+.Contact-page.page {
     flex-direction: row;
     justify-content: space-around;
     font-family: Verdana, Geneva, Tahoma, sans-serif;
 }
-.Contact-page form
-{
+
+.Contact-page form {
     display: flex;
     flex-direction: column;
     justify-content: center;
     align-items: center;
     padding: 1rem;
 }
-.Contact-page form .input-box
-{
+
+.Contact-page form .input-box {
     position: relative;
     margin-bottom: 3rem;
     width: 100%;
@@ -24,15 +23,15 @@
     justify-content: center;
     border-radius: 2rem;
 }
-.Contact-page form .input-box i
-{
-    padding: 0 .5rem;
+
+.Contact-page form .input-box i {
+    padding: 0 1rem;
     font-size: 2rem;
     color: var(--black);
     display: flex;
 }
-.Contact-page form .input-box input
-{
+
+.Contact-page form .input-box input {
     width: 100%;
     padding: 1rem;
     border: none;
@@ -41,40 +40,36 @@
     letter-spacing: .5px;
     font-family: sans-serif;
 }
+
 .Contact-page form .input-box input:valid~label,
-.Contact-page form .input-box input:focus~label
-{
-    top: -1.8rem;
+.Contact-page form .input-box input:not(:placeholder-shown)~label,
+.Contact-page form .input-box input:focus~label,
+.Contact-page form .input-box textarea:valid~label,
+.Contact-page form .input-box textarea:focus~label {
+    top: -2rem;
     line-height: auto;
     color: var(--secondary-blue);
     filter: opacity(1);
 }
-.Contact-page form .input-box input:active
-{
+
+.Contact-page form .input-box input:active {
     outline: none;
 }
-.Contact-page form .input-box textarea
-{
+
+.Contact-page form .input-box textarea {
     width: 100%;
     resize: none;
     border: none;
     font-size: 1.8rem;
-    padding: 1rem ;
+    padding: 1rem;
     font-family: sans-serif;
     border-radius: 2rem;
 }
-.Contact-page form .input-box textarea:valid~label,
-.Contact-page form .input-box textarea:focus~label
-{
-    top: -1.8rem;
-    line-height: auto;
-    color: var(--secondary-blue);
-    filter: opacity(1);
-}
-.Contact-page form .input-box label
-{
+
+
+.Contact-page form .input-box label {
     position: absolute;
-    left: 5rem;
+    left: 6rem;
     top: 1.2rem;
     font-size: 1.5rem;
     text-transform: capitalize;
@@ -84,16 +79,20 @@
     filter: opacity(.5);
     pointer-events: none;
 }
-.Contact-page form .send
-{
+
+.Contact-page form .input-box textarea~label {
+    top: 5.5rem;
+}
+
+.Contact-page form .send {
     align-self: flex-end;
     display: flex;
     align-items: center;
     justify-content: center;
     position: relative;
-}  
-.Contact-page form .send button
-{
+}
+
+.Contact-page form .send button {
     display: flex;
     align-items: center;
     justify-content: center;
@@ -106,26 +105,26 @@
     color: var(--black);
     background: linear-gradient(to top right, var(--primary-green), var(--secondary-green));
 }
-.Contact-page form .send button:hover
-{
+
+.Contact-page form .send button:hover {
     background: transparent;
     color: var(--primary-green);
     border: .2rem solid var(--primary-green);
     text-shadow: 0px 2px 5px rgba(255, 255, 255, 0.4);
 }
-.Contact-page form .send button i
-{
+
+.Contact-page form .send button i {
     display: flex;
     padding-right: 1rem;
     pointer-events: none;
-} 
-.Contact-page form .send button label
-{
+}
+
+.Contact-page form .send button label {
     display: flex;
     pointer-events: none;
-} 
-.Contact-page img
-{
+}
+
+.Contact-page img {
     width: 50%;
     user-select: none;
 }
@@ -133,14 +132,12 @@
 
 
 
-@media (max-width: 600px) 
-{
-    html
-    {
+@media (max-width: 600px) {
+    html {
         font-size: 55%;
     }
-    .Contact-page.page
-    {
+
+    .Contact-page.page {
         flex-direction: column;
     }
 }
